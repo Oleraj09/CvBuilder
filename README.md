@@ -1,36 +1,19 @@
-## MZ-Blog :: A Simple Blog Site
+## MZ-CvBuilder :: A Simple CV Builder Application to generate existing Resume
 MZ Blog is created with only HTML,CSS,JS,Bootstrap for Frontend Developemnt. For Backend Development used PHP framework Laravel and MySQL for Database Design. 
-Also there is comment system for sepecific post. User Can only read and comment on post. 
 
-But author can do same as User but has extra ability to create blog post. All Above there is Admin panle, those are can do anything to the website. Admin Panel has all the power and permission.
+<h3>CvBuilder on Live Server</h3> <a href="https://mondolmart.000webhostapp.com/"><img src="https://raw.githubusercontent.com/Oleraj09/CvBuilder/master/dist/software-development.png" style="height:150px;width:160px"></a><br/>
+Click On the above Icon for Demo!! Or <a href="https://mondolmart.000webhostapp.com/">Click Here</a>
 
-
-However this is simple and minimal project that i created.
 ## Demo
 
 ``` Homepage ```
 
-<img src="https://raw.githubusercontent.com/Oleraj09/MZ-Blog/master/WebTemplate/home.png" alt="Desktop Homepage">
+<img src="https://raw.githubusercontent.com/Oleraj09/CvBuilder/master/dist/1.PNG" alt="Desktop Homepage">
 
-``` Item wise Show ```
+``` Resume Show ```
 
-<img src="https://raw.githubusercontent.com/Oleraj09/MZ-Blog/master/WebTemplate/singlepage.png" alt="Item wise Show item">
+<img src="https://raw.githubusercontent.com/Oleraj09/CvBuilder/master/dist/2.PNG" alt="Item wise Show item">
 
-``` Category Wise Show ```
-
-<img src="https://raw.githubusercontent.com/Oleraj09/MZ-Blog/master/WebTemplate/catwise.png" alt="Category Wise Show">
-
-``` Admin Panel ```
-
-<img src="https://raw.githubusercontent.com/Oleraj09/MZ-Blog/master/WebTemplate/admin.PNG" alt="Admin Panel">
-
-``` Author Dashboard ```
-
-<img src="https://raw.githubusercontent.com/Oleraj09/MZ-Blog/master/WebTemplate/Author.png" alt="Author Dashboard">
-
-``` User Dashboard ```
-
-<img src="https://raw.githubusercontent.com/Oleraj09/MZ-Blog/master/WebTemplate/user.png" alt="User Dashboard">
 
 ## Run Webapp
 To run this application must require node module and composer autoload module.
