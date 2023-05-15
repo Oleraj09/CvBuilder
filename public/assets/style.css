@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('hero2.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 82%, 49% 100%, 0 83%);
+    /* filter: drop-shadow(8px 8px 10px gray); */
+}
+
+.cvdemo {
+    background: #034953;
+    margin-top: -20vh;
+}
+
+.items {
+    padding: 12% 10%;
+}
+
+.h1own {
+    color: rgb(37, 6, 6);
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.h4own {
+    color: rgb(43, 3, 3);
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.mybtns {
+    height: 60px;
+    width: 180px;
+    border: none;
+    background: rgb(236, 170, 46);
+    color: white;
+    font-weight: 600;
+    filter: drop-shadow(8px 8px 10px rgb(54, 54, 54));
+}
+
+.mybtns:hover {
+    height: 60px;
+    width: 180px;
+    border: none;
+    background: rgb(233, 176, 70);
+    color: white;
+    font-weight: 600;
+    filter: drop-shadow(8px 8px 10px rgb(119, 117, 117));
+}
+
+.pad {
+    padding-top: 15%;
+}
+
+.dfelx {
+    margin-top: -20%;
+}
+
+.justify {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1040px) {
+    .hero {
+        background-image: url('hero2.avif');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: auto;
+        padding-bottom: 150px;
+        clip-path: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .mybtn {
+        height: 40px;
+        width: 120px;
+        border: none;
+        background: rgb(236, 170, 46);
+        color: white;
+        font-weight: 600;
+        filter: drop-shadow(8px 8px 10px rgb(54, 54, 54));
+    }
+
+    .mybtn:hover {
+        height: 40px;
+        width: 120px;
+        border: none;
+        background: rgb(233, 176, 70);
+        color: white;
+        font-weight: 600;
+        filter: drop-shadow(8px 8px 10px rgb(119, 117, 117));
+    }
+}
+.mybtn {
+    height: 40px;
+    width: 120px;
+    border: none;
+    background: rgb(236, 170, 46);
+    color: white;
+    font-weight: 600;
+    filter: drop-shadow(8px 8px 10px rgb(54, 54, 54));
+}
+
+.mybtn:hover {
+    height: 40px;
+    width: 120px;
+    border: none;
+    background: rgb(233, 176, 70);
+    color: white;
+    font-weight: 600;
+    filter: drop-shadow(8px 8px 10px rgb(119, 117, 117));
+}
